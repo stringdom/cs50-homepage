@@ -23,3 +23,17 @@ body {
     padding-left: 10%;
     padding-right: 10%;
 }
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px black;
+}
+
+#counter-container {
+    text-align: center;
+}
+
+#counter {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
