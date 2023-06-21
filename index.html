@@ -2,6 +2,9 @@
 
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,6 +16,7 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="https://kit.fontawesome.com/2a357c6e46.js" crossorigin="anonymous"></script>
     <link href="styles.css" rel="stylesheet" />
     <title>Stringdom's Webpage</title>
   </head>
@@ -52,19 +56,17 @@
       </div>
     </nav>
 
-    <div class="container-fluid text-center">
-      <h1>Welcome to my WebPage.</h1>
-
-      <p>
-        In this website I will talk about different things I'm interested in and
-        try to demonstrate basic JavaScript functionality.
-      </p>
-    </div>
-    <div class="row gx-5">
-      <div class="col-1"></div>
-
-      <div class="col">
+    <div class="container-fluid">
+      <div class="row text-center">
+        <h1 class="index-title">Welcome to my WebPage.</h1>
+        
         <p class="lead">
+          In this website I will talk about different things I'm interested in and
+          try to demonstrate basic JavaScript functionality.
+        </p>
+      </div>
+      <div class="row index-text">
+        <p>
           During the last year (2022) I participated in Harvard's CS50 course
           <em>“Introduction to Computer Science”</em>. Back then I managed to
           complete and see all lessons. However, only got to solve and deliver
@@ -76,18 +78,21 @@
           to all this webpage.
         </p>
       </div>
-      <div class="col"></div>
+      <div class="row text-center">
+        <footer class="centered-content">
+          <p>
+            <a class="btn btn-primary link-opacity-75-hover" href="books.html"
+            ><span class="fa-solid fa-book"></span> My favorite books.</a
+            >
+          </p>
+          <p>
+            <a class="btn btn-secondary link-opacity-75-hover" href="count.html"><span class="fa-solid fa-scroll"></span> Basic counter.</a>
+          </p>
+          <p><a class="btn btn-secondary link-opacity-75-hover" href="about.html"><span class="fa-solid fa-image-portrait"></span> About me.</a></p>
+        </div>
+      </footer>
     </div>
-    <div class="row text-center">
-      <p>
-        <a class="link-opacity-75-hover" href="books.html"
-          >My favorite books.</a
-        >
-      </p>
-      <p>
-        <a class="link-opacity-75-hover" href="count.html">Basic counter.</a>
-      </p>
-      <p><a class="link-opacity-75-hover" href="about.html">About me.</a></p>
-    </div>
+  </div>
   </body>
-</html>
+  </html>
+  

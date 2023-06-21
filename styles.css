@@ -1,3 +1,25 @@
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.index-title {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkcyan;
+    padding: 5%;
+    padding-bottom: 1%;
+}
+
+body {
+    background-color: azure;
+}
+
+.index-text {
+    padding-left: 5%;
+    padding-right: 30%;
+    text-indent: 4em;
+}
+
+.centered-content {
+    padding-left: 10%;
+    padding-right: 10%;
 }

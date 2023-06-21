@@ -53,19 +53,15 @@
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col">
-                </div>
-                <div class="col">
+                <div class="col centered-content">
                     <p>Counter</p>
                     <p id="counter">0</p>
-                    <form>
-                        <button type="button" onclick="IncreaseCounter()">Increase +</button>
-                        <button type="button" onclick="DecreaseCounter()">Decrease -</button>
-                        <button type="button" onclick="ResetCounter()">Reset</button>
+                    <form class="btn-group" role="group">
+                        <button type="button" class="btn btn-primary" onclick="IncreaseCounter()">Increase +</button>
+                        <button type="button" class="btn btn-secondary" onclick="DecreaseCounter()">Decrease -</button>
+                        <button type="button" class="btn btn-danger" onclick="ResetCounter()">Reset</button>
                     </form>
                 </div>
-                <div class="col"></div>
-            </div>
         </div>
     </body>
 </html>
